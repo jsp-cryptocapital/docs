@@ -1,0 +1,253 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Mintlify Starter Kit",
+  "colors": {
+    "primary": "#000000",
+    "light": "#FF0000",
+    "dark": "#0000FF"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Infrastructure",
+        "pages": [
+          "index",
+          {
+            "group": "Infrastructure",
+            "pages": [
+              "infrastructure/aws",
+              "infrastructure/clickhouse",
+              "infrastructure/redshift",
+              "infrastructure/aurora",
+              "infrastructure/ec2",
+              "infrastructure/nginx",
+              "infrastructure/cpp",
+              "infrastructure/github"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "IP/Strategy",
+        "groups": [
+          {
+            "group": "IP/Strategy",
+            "pages": [
+              "ip-strategy/kashi-to-pm",
+              "ip-strategy/pmus-to-pm",
+              "ip-strategy/prophetx-to-pm",
+              "ip-strategy/maker-maker",
+              "ip-strategy/parlay",
+              "ip-strategy/perp",
+              "ip-strategy/100s",
+              "ip-strategy/financial-contracts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Data",
+        "groups": [
+          {
+            "group": "Data",
+            "pages": [
+              "data/genius-sports",
+              "data/sportradar-pmus-pass-through",
+              "data/lsports",
+              "data/espn",
+              "data/kalshi-pm-pmus-ob",
+              "data/kalshi-pm-trades"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Security",
+        "groups": [
+          {
+            "group": "Security",
+            "pages": [
+              "security/aws",
+              "security/personal-hardware",
+              "security/crypto",
+              "security/bank",
+              "security/google-auth"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Banking/Funding",
+        "groups": [
+          {
+            "group": "Banking/Funding",
+            "pages": [
+              "banking-funding/mercury",
+              "banking-funding/coinbase",
+              "banking-funding/chase-personal"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Investments",
+        "groups": [
+          {
+            "group": "Investments",
+            "pages": [
+              "investments/100s"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Payables/Subscriptions",
+        "groups": [
+          {
+            "group": "Payables/Subscriptions",
+            "pages": [
+              "payables-subscriptions/paul-hastings-llp",
+              "payables-subscriptions/genius-sports",
+              "payables-subscriptions/aws",
+              "payables-subscriptions/apple",
+              "payables-subscriptions/cursor"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Exchanges",
+        "groups": [
+          {
+            "group": "Exchanges",
+            "pages": [
+              "exchanges/deals-contracts",
+              "exchanges/sub-accounts",
+              "exchanges/pm",
+              "exchanges/pmus",
+              "exchanges/kalshi",
+              "exchanges/gemini",
+              "exchanges/prophetx",
+              "exchanges/predict-fun",
+              "exchanges/rothera",
+              "exchanges/novig",
+              "exchanges/hyperliquid",
+              "exchanges/deribit",
+              "exchanges/binance",
+              "exchanges/coinbase",
+              "exchanges/draft-kings",
+              "exchanges/underdog",
+              "exchanges/fan-duel",
+              "exchanges/cme"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tiers (Employee)",
+        "groups": [
+          {
+            "group": "Tiers (Employee)",
+            "pages": [
+              "tiers-employee/aws",
+              "tiers-employee/withdrawal-eligible",
+              "tiers-employee/block-access"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "groups": [
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/paul-hastings-llp"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Trade Monitoring",
+        "groups": [
+          {
+            "group": "Trade Monitoring",
+            "pages": [
+              "trade-monitoring/website",
+              "trade-monitoring/discord",
+              "trade-monitoring/terminal"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contacts",
+        "groups": [
+          {
+            "group": "Contacts",
+            "pages": [
+              "contacts/brooke",
+              "contacts/mustafa",
+              "contacts/nikhil",
+              "contacts/judah",
+              "contacts/nick",
+              "contacts/icobeast",
+              "contacts/danny",
+              "contacts/dean",
+              "contacts/rob",
+              "contacts/tom",
+              "contacts/eddie",
+              "contacts/surena",
+              "contacts/paget",
+              "contacts/brigitte"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0000FF"
+    }
+  }
+}
