@@ -125,7 +125,15 @@
             "pages": [
               "exchanges/deals-contracts",
               "exchanges/sub-accounts",
-              "exchanges/pm",
+              {
+                "group": "PM",
+                "pages": [
+                  "exchanges/pm",
+                  "pm/ctf-smart-contracts",
+                  "pm/rpc-node-performance",
+                  "pm/polygon-gas-optimization"
+                ]
+              },
               "exchanges/pmus",
               {
                 "group": "Kalshi",
@@ -148,7 +156,15 @@
               "exchanges/draft-kings",
               "exchanges/underdog",
               "exchanges/fan-duel",
-              "exchanges/cme"
+              {
+                "group": "CME",
+                "pages": [
+                  "exchanges/cme",
+                  "cme/globex-fix-routing",
+                  "cme/large-trader-reporting",
+                  "cme/interest-rate-arbitrage"
+                ]
+              }
             ]
           }
         ]
