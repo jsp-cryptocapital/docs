@@ -134,7 +134,15 @@
                   "pm/polygon-gas-optimization"
                 ]
               },
-              "exchanges/pmus",
+              {
+                "group": "PMUS",
+                "pages": [
+                  "exchanges/pmus",
+                  "pmus/synthetic-mirroring",
+                  "pmus/us-regulatory-wrappers",
+                  "pmus/delta-hedging"
+                ]
+              },
               {
                 "group": "Kalshi",
                 "pages": [
