@@ -128,28 +128,19 @@
               {
                 "group": "PM",
                 "pages": [
-                  "exchanges/pm",
-                  "pm/ctf-smart-contracts",
-                  "pm/rpc-node-performance",
-                  "pm/polygon-gas-optimization"
+                  "exchanges/pm"
                 ]
               },
               {
                 "group": "PMUS",
                 "pages": [
-                  "exchanges/pmus",
-                  "pmus/synthetic-mirroring",
-                  "pmus/us-regulatory-wrappers",
-                  "pmus/delta-hedging"
+                  "exchanges/pmus"
                 ]
               },
               {
                 "group": "Kalshi",
                 "pages": [
-                  "exchanges/kalshi",
-                  "kalshi/cftc-filings",
-                  "kalshi/macro-feed-latency",
-                  "kalshi/orderbook-deltas"
+                  "exchanges/kalshi"
                 ]
               },
               "exchanges/gemini",
@@ -167,10 +158,7 @@
               {
                 "group": "CME",
                 "pages": [
-                  "exchanges/cme",
-                  "cme/globex-fix-routing",
-                  "cme/large-trader-reporting",
-                  "cme/interest-rate-arbitrage"
+                  "exchanges/cme"
                 ]
               }
             ]
