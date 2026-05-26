@@ -4,18 +4,92 @@ title: "Kashi to PM"
 
 # Kashi to PM
 
-## 🎯 Alpha Vector
+## Research & Thesis
 
-- Core trading thesis, mathematical models used, and specific asset anomalies or price dislocations targeted.
+### 🎯 Core Mathematical Model
 
-## 🐍 Codebase & Engine
+The underlying math, pricing formulas, or rules.
 
-- GitHub repository paths (e.g., `ireland-hedger`), execution tech stack, runner scripts, and loop frequencies.
+### 📊 Historical Backtest Performance
 
-## 🛡️ Risk & Exposure Controls
+Historical Sharpe ratios, maximum drawdowns.
 
-- Hard boundaries for maximum notional size per order, aggregate position limits, and strategy drawdown caps.
+### 🔍 Targeted Price Anomalies
 
-## 🔄 Execution & Hedging Rails
+The specific structural mispricing being captured.
 
-- Venue deployment routes, automated cross-exchange hedging loops, and settlement rebalancing paths.
+### 📑 Alpha Assumptions & Decay Curves
+
+When the edge works and how fast it drops.
+
+## Execution Engine Architecture
+
+### 🐍 Core Python / Go Implementation
+
+Code repository layout and main run loops.
+
+### ⏱️ Quoting Frequencies & Loop Intervals
+
+Poller sleep intervals or ticker loops.
+
+### 🔄 Order Matching Engine Quirks
+
+How a specific venue handles liquidity fills.
+
+### 📥 Signal Source Ingestion
+
+How the strategy consumes inputs, like BLS or sports data.
+
+## Order & Inventory Routing
+
+### 🔀 Active Liquidity Routing Paths
+
+Which accounts get active execution.
+
+### 📦 Inventory Balancing & Drift
+
+Managing long/short skew or asset positions.
+
+### 📉 Slippage Optimization & Impact
+
+Mitigating market impact on larger block trades.
+
+### 🔌 Smart Contract Routing Rules
+
+On-chain interactions like CTF frameworks or AMMs.
+
+## Risk, Hedging, & Defense
+
+### 🛡️ Circuit Breakers & Loss Caps
+
+Hard drawdown limits for automated scripts.
+
+### 🔗 Cross-Venue Hedging Leg Logic
+
+How the engine covers risk on alternative venues.
+
+### 🧮 Portfolio Margin Profiles
+
+Calculating real-time equity requirements.
+
+### 🎭 Anonymization & Order Sizing
+
+Masking automated execution signatures.
+
+## Post-Trade & Operations
+
+### 🧾 Settlement & Oracle Discrepancies
+
+Handling incorrect contract resolutions.
+
+### 💰 Fee Tier Optimization Metrics
+
+Tracking Maker/Taker ratios to maintain rebates.
+
+### 🔄 Profit Clearance & Weekly Sweeps
+
+Extracting excess capital to master checking.
+
+### 📝 Strategy Event Log Tracking
+
+Documenting execution anomalies and strategy audits.
