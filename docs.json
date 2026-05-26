@@ -127,7 +127,15 @@
               "exchanges/sub-accounts",
               "exchanges/pm",
               "exchanges/pmus",
-              "exchanges/kalshi",
+              {
+                "group": "Kalshi",
+                "pages": [
+                  "exchanges/kalshi",
+                  "kalshi/cftc-filings",
+                  "kalshi/macro-feed-latency",
+                  "kalshi/orderbook-deltas"
+                ]
+              },
               "exchanges/gemini",
               "exchanges/prophetx",
               "exchanges/predict-fun",

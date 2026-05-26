@@ -1,7 +1,33 @@
----
-title: "Kalshi"
----
-
 # Kalshi
 
-Documentation for Kalshi exchange.
+## Overview
+
+US CFTC-regulated Designated Contract Market (DCM) deploying domestic event contracts. Operates in hard cash strings (\_dollars) on its updated V2 API architecture, utilizing its in-house clearinghouse (Kalshi Klear).
+
+## Fee Structure
+
+**Maker Fee:** Charged dynamically on executed resting limit orders depending on contract type.
+
+**Taker Fee:** Enforces a formulaic bell-shaped percentage of expected contract earnings:
+
+$\text{Fee} = \lceil 0.07 \times \text{Contracts} \times P \times (1 - P) \rceil$
+
+Fees peak at $50\%$ probability — $P = 0.50$ costs $\$1.75\$ per 100 contracts — and trend to zero at tail probabilities.
+
+## Active Execution Strategies
+
+- Real-time political structural arbitrage matching decentralized offshore indices
+- High-frequency macro economic data release market-making (BLS, NFP, CPI tracking)
+
+## Sub-pages
+
+<CardGroup cols={3}>
+  <Card title="CFTC Filings" icon="file-contract" href="/kalshi/cftc-filings">
+  </Card>
+
+  <Card title="Macro Feed Latency" icon="bolt" href="/kalshi/macro-feed-latency">
+  </Card>
+
+  <Card title="Orderbook Deltas" icon="chart-line" href="/kalshi/orderbook-deltas">
+  </Card>
+</CardGroup>
